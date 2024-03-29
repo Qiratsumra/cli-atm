@@ -48,7 +48,7 @@ if (answerPin.pin === my_pin ) {
        }}if(options.actions === "fastcash"){
         let fastCash = await inquirer.prompt([{
             name:"fastcash",
-            message:"How much fast cash do you  want?",
+            message:"How much fast cash do you want?",
             type:"list",
             choices:["$100","$500","$1000"]
         }]);
